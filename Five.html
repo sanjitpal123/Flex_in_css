@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Maindiv {
+            height: 100vh;
+            width: 100%;
+
+            display: flex;
+            margin: auto;
+        }
+
+        #leftdiv {
+            width: 50%;
+        }
+
+        #first {
+            height: 200px;
+            width: 100;
+        }
+
+        #right {
+            width: 50%;
+        }
+
+        #first {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #fright {}
+
+        #text {
+            display: flex;
+            gap: 20px;
+        }
+
+        #btnpart {
+            display: flex;
+            gap: 4px;
+        }
+
+        #btn1 {
+            height: 30px;
+            width: 100px;
+            background-color: rgb(250, 156, 42);
+            border: 2px solid rgb(250, 156, 42);
+
+        }
+
+        #btn2 {
+            height: 30px;
+            width: 100px;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        #btn3 {
+            height: 30px;
+            width: 100px;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        #t {
+            font-size: 28px;
+            margin-left: 10px;
+
+        }
+
+        #s {
+            margin-right: 8px;
+            color: rgb(12, 237, 12);
+        }
+
+        #se {
+            color: rgb(255, 65, 96);
+        }
+
+        #rail {
+            margin-left: 10px;
+        }
+
+        #btnp1 img {
+            gap: 2px;
+        }
+
+        .image-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            
+            background-color: #0b6ee7;
+            
+            color: #fff;
+            
+            border: none;
+        
+            cursor: pointer;
+            border-radius: 5px;
+            
+        }
+
+        .image-button img {
+            margin-right: 5px;
+            
+        }
+
+        .image-button span {
+            font-size: 16px;
+            
+        }
+
+        #btnpart2 {
+            display: flex;
+            gap: 10px;
+            margin-left: 30px;
+        }
+
+        #btnp2 {
+            background-color: rgb(242, 209, 209);
+            border: 2px solid black;
+            color: black;
+        }
+
+        #btnp3 {
+            background-color: aliceblue;
+            border: 2px solid black;
+            color: black;
+        }
+
+        #train {
+            height: 100px;
+            width: 70%;
+            display: flex;
+            border: 2px solid black;
+            margin-top: 10px;
+            margin-left: 30px;
+            align-items: center;
+            justify-content: space-around;
+            
+        }
+
+        #tright {
+            display: flex;
+            align-items: center;
+            
+
+        }
+
+        #rightleft {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: white;
+            border: 2px solid black;
+        }
+        #search{
+            height: 40px;
+            width: 50%;
+            background-color: rgb(4, 253, 253);
+            margin-top: 20px;
+            border: 2px solid black;
+            cursor: pointer;
+            color :rgb(139, 0, 0);
+            font-size: 22px;
+            margin-left: 60px;
+        }
+        #Maindiv{
+            height: 80%;
+            border: 2px solid black;
+            width: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Maindiv">
+        <div id="leftdiv">
+            <div id="first">
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/mr/thumb/4/45/IRCTC_Logo.svg/1200px-IRCTC_Logo.svg.png"
+                        height="80px">
+                    <img src="https://i.pinimg.com/736x/6a/72/4b/6a724b9501764fd83a4abcd37b58144d.jpg" height="80px">
+                </div>
+                <div id="fright">
+                    <div id="text">
+                        <p>Ask Disha</p>
+                        <p>Contact Us</p>
+                        <P>Alerts</P>
+                    </div>
+                    <div id="btnpart">
+                        <button id="btn1">Login</button>
+                        <button id="btn2">Register</button>
+                        <button id="btn3">Agent Login</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <h1 id="rail"> Indian Railways </h1>
+            <p id="t"><span id="s">Safety</span><span id="se">Security</span> <span id="p">punctuality</span></p>
+            <div id="btnpart2">
+                <button id="btnp1" class="image-button">
+                    <img src="https://www.svgrepo.com/download/144359/tickets.svg" height="20px">
+                    <span>BOOK TICKET</span>
+                </button>
+                <button id="btnp2" class="image-button">
+                    <img src="https://svgsilh.com/svg_v2/305615.svg" height="20px">
+                    <span>PNA Status</span>
+                </button>
+                <button id="btnp3" class="image-button">
+                    <img src="data:image/jpeg;base64,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"
+                        height="20px">
+                    <span>PNA Status</span>
+                </button>
+
+            </div>
+            <div id="train">
+                <div id="tright">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BSicon_TRAIN2.svg/1024px-BSicon_TRAIN2.svg.png"
+                        height="40px">
+                    <select>
+                        <option claue="Mumbai">Mumbai</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="chennai">Chennai</option>
+                    </select>
+                </div>
+                <div id="rightleft">
+                    <img src="https://www.svgrepo.com/show/459481/left-right-arrow.svg" height="30px">
+                </div>
+                <div id="tright">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BSicon_TRAIN2.svg/1024px-BSicon_TRAIN2.svg.png"
+                        height="40px">
+                    <select> 
+                        
+                        <option claue="Mumbai">Mumbai</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="chennai">Chennai</option>
+                    </select>
+                </div>
+               
+
+
+            </div>
+            <button id="search"> Search Train</button>
+        </div>
+
+        <div id="rightdiv">
+            <img src="https://st2.indiarailinfo.com/kjfdsuiemjvcya3/0/6/6/4/5843664/0/snapchat294100757890536.jpg"
+                height="720px" width="480px">
+        </div>
+
+    </div>
+</body>
+
+</html>
