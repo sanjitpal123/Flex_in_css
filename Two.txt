@@ -1,0 +1,19 @@
+1.justify-content:
+      
+      solution:
+           we use justify-content to align item in main axis in  horizontal line.
+2. Align-item:
+  solution:
+      we use align-item to align the item in y axis in vertical line.
+3. Gap:
+  solution:
+         We use gap to keep the gap between the item.
+
+4. flex-direction:
+     solution:
+         We use the flex direction to change the direction of the flex in the form of row and column
+5. flex-wrap:
+  solution:
+    we use flex wrap to wrap the item
+
+
