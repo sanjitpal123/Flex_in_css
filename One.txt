@@ -1,0 +1,26 @@
+ 1.Describe the different between css flex box layout model and the css grid layout model. when would you like to choose one over others?
+
+  Solution:
+     
+Layout Model:
+
+Flexbox: Flexbox is a one-dimensional layout model. It is best suited for laying out items in a single row or column. You can create flexible, responsive designs for components within that row or column, but it doesn't work well for managing a two-dimensional layout with both rows and columns.
+Grid: CSS Grid is a two-dimensional layout model, which means you can create layouts with both rows and columns. It's ideal for creating complex, grid-based designs. You can use it to define the rows and columns explicitly.
+Item Arrangement:
+
+Flexbox: It's great for aligning items within a container along a single axis (either horizontally or vertically). Items can grow or shrink to fit the available space.
+Grid: It allows you to create a grid structure with items placed within the defined rows and columns. You have more control over item placement in both dimensions.
+
+Responsive Design:
+
+Flexbox: It's excellent for building responsive designs within a single row or column, making it well-suited for items that need to adapt to different screen sizes.
+Grid: CSS Grid is versatile for creating responsive layouts. It enables you to control the placement of items in a grid, which can adapt to various screen sizes.
+
+
+When to Choose One Over the Other:
+
+Use Flexbox when you need to arrange items within a single row or column. This is useful for things like navigation menus, button groups, and flexible content within a container.
+
+Choose Grid when you need to create a more complex layout with both rows and columns, like a multi-column website layout or a grid-based gallery. Grid is particularly powerful for structuring the overall page layout.
+
+It's also common to use them together within the same project, as they complement each other. For example, you can use Grid to structure the overall layout of a webpage and use Flexbox within the Grid items to control the alignment and distribution of content. Your choice depends on the specific requirements of your layout
